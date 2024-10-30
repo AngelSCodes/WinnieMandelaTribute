@@ -84,3 +84,28 @@ button:hover {
     transform: scale(1.2);
     background-color: #fff;
 }
+
+#gallery {
+    display: flex;
+  justify-content: space-evenly;
+}
+
+#gallery img {
+   height: 80%;
+   align-content: center;
+   margin-top: 25px;
+   margin-bottom: 10px; 
+}
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-image1 {
+    width: 290px;
+    height: 264px;
+}
+footer{
+    text-align: center;
+    font-size: 0.5rem;
+    padding:10px;
+}
