@@ -34,9 +34,11 @@ text-align: center;
 #image {
     display:block;
     margin: 0 auto;
-    height: 80%;
+    height: auto;
     border-radius: 50%;
     border: 1px solid #fff;
+    max-width: 100%;
+    
 
 }
 
